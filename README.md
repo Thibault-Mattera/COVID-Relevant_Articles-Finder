@@ -1,3 +1,5 @@
+Clone github repository and run the following Docker commands:
+
 # Build the images 
 docker-compose build
 
