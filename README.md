@@ -1,4 +1,7 @@
-Clone github repository and run the following Docker commands:
+The data comes from the COVID-19 Open Research Dataset Challenge (CORD-19):
+https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+
+TO use the web app, Clone github repository and run the following Docker commands:
 
 # Build the images 
 docker-compose build
