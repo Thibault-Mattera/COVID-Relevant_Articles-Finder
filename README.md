@@ -3,17 +3,17 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 TO use the web app, Clone github repository and run the following Docker commands:
 
-# Build the images 
+## Build the images 
 docker-compose build
 
-# run the containers
+## run the containers
 docker-compose up
 
-# access to webapp:
+## access to webapp:
 http://localhost:8080/
 
-# Test flask api:
+## Test flask api:
 http://127.0.0.1:5000/task
 
-# Stop containers
+## Stop containers
 docker-compose stop
