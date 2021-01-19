@@ -3,6 +3,9 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 TO use the web app, Clone github repository and run the following Docker commands:
 
+![](/images/covid-app-demo.gif)
+
+
 ## Build the images 
 docker-compose build
 
