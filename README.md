@@ -7,31 +7,29 @@ This project is an answer to the call to action from the [COVID-19 Open Research
 We created a smart search engine that suggests relevant academic articles related to coronavirus based on user's request (semantic-like search engine).
 This could help to generate insights and corelations among over 400k articles about COVID-19, SARS-CoV-2, and related coronaviruses.
 
-High-level steps of the projects:
+## Steps of the project
+
 - data cleaning: refine the articles' abstracts to make them usable
-- modelling: vectorize the abstracts and define an Unsupervised learning algorithm
+- modelling: vectorize the abstracts and define an Unsupervised learning algorithm (Latent Dirichlet allocation)
 - productionizing: build a Flask API and graphical user interface (web-app)
+- deployment/DevOps: dockerize the whole solution
 
+The scripts to prepare the model can be found in the modelling folder.
 
-
-
-
-TO use the web app, Clone github repository and run the following Docker commands:
+## How to use the web app
 
 ![](/images/covid-app-demo.gif)
 
+Clone the github repository and run the following Docker commands.
 
-## Build the images 
 docker-compose build
 
-## run the containers
 docker-compose up
 
-## access to webapp:
+Access to the web-app on your local server:
+
 http://localhost:8080/
 
-## Test flask api:
-http://127.0.0.1:5000/task
+Stop the containers:
 
-## Stop containers
 docker-compose stop
