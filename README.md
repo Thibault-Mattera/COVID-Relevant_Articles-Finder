@@ -14,7 +14,7 @@ This could help to generate insights and corelations among over 400k articles ab
 - productionizing: build a Flask API and graphical user interface (web-app)
 - deployment/DevOps: dockerize the whole solution
 
-The scripts to prepare the model can be found in the modelling folder.
+The scripts to prepare the model can be found in the [modelling](https://github.com/Thibault-Mattera/COVID-Relevant_Articles-Finder/tree/master/modelling) folder.
 
 ## How to use the web app
 
