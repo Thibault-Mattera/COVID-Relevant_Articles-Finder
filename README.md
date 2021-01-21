@@ -10,8 +10,8 @@ This could help to generate new insights among over 400k articles about COVID-19
 
 ## Steps of the project
 
-- data cleaning: refine the articles' abstracts to make them usable
-- modelling: vectorize the abstracts and define an Unsupervised learning algorithm (Latent Dirichlet allocation)
+- data cleaning and preprocessing: refine and vectorize the abstracts to make them usable
+- topic modelling: use the LDA (Latent Dirichlet allocation) to generate labels for the articles
 - productionizing: build a Flask API and graphical user interface (web-app)
 - deployment/DevOps: dockerize the whole solution
 
