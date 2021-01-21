@@ -4,7 +4,8 @@
 
 This project is an answer to the call to action from the [COVID-19 Open Research Dataset Challenge (CORD-19)](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) to leverage our expertise to help the medical community in the fight against coronarivuses.
 
-We created a smart search engine that suggests relevant academic articles related to coronavirus based on user's request (semantic-like search engine).
+We created a smart search engine that suggests relevant academic articles related to coronavirus based on user's request specific request.
+
 This could help to generate insights and corelations among over 400k articles about COVID-19, SARS-CoV-2, and related coronaviruses.
 
 ## Steps of the project
